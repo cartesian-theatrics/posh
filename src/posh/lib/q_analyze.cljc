@@ -3,6 +3,7 @@
    [posh.lib.util :as util]
    [posh.lib.datom-matcher :as dm]
    [posh.lib.pull-analyze :as pa]
+   [datascript.core :as d]
    #?(:clj [clojure.core.match :refer [match]]
       :cljs [cljs.core.match :refer-macros [match]])))
 
